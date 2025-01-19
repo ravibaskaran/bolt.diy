@@ -13,6 +13,12 @@ export default class HyperbolicProvider extends BaseProvider {
   };
 
   staticModels: ModelInfo[] = [
+   {
+      name: 'deepseek-ai/DeepSeek-V3',
+      label: 'DeepSeek-V3',
+      provider: 'Hyperbolic',
+      maxTokenAllowed: 8192,
+    },
     {
       name: 'Qwen/Qwen2.5-Coder-32B-Instruct',
       label: 'Qwen 2.5 Coder 32B Instruct',
